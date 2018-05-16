@@ -1,0 +1,19 @@
+// color:rgb(176,14,35)
+$baseFont:'Arial', sans-serif;
+
+$firstColor: rgb(255, 255, 255);
+$secondColor: rgb(176,14,35);
+$thirdColor: rgb(17, 14, 31);
+
+@import "components/setup";
+@import "components/main";
+@import "components/mediaquery";
+
+html{
+    font-size: 62.5%;
+    font-family: $baseFont;
+  }
+  
+  img{
+    width: 100%;
+  }
