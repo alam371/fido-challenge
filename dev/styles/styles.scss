@@ -1,9 +1,8 @@
-// color:rgb(176,14,35)
-$baseFont:'Arial', sans-serif;
+$baseFont:'Avenir Next','Arial', sans-serif;
 
 $firstColor: rgb(255, 255, 255);
 $secondColor: rgb(176,14,35);
-$thirdColor: rgb(17, 14, 31);
+$thirdColor: rgb(73, 72, 77);
 
 @import "components/setup";
 @import "components/main";

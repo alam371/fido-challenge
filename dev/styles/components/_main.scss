@@ -2,23 +2,41 @@ body{
     font-family: $baseFont;
     background: $secondColor;
     color: $firstColor;
+
     img{
         padding-left: 20%;
     }
     .jumbotron{
         background: $secondColor;
         padding-top: 20%;
-        padding-right: 40%;
         h1{
             padding-top: 10%;
+            padding-bottom: 8%;
             font-size: 40px;
+            position: relative;
         }
         span{
-            font-size: 14px;
+            font-size: 12px;
+            position: absolute;
+            top: 1;
         }
         h2{
             font-size: 24px;
             line-height: 1.5;
+            padding-right: 40%;
+        }
+        .btn{
+            background: $secondColor;
+            border: 1px solid $firstColor;
+            border-radius: 6px;
+            font-size: 16px;
+            width: 170px;
+        }
+        .btn:hover,
+        .btn:focus{
+            cursor: pointer;
+            color: $thirdColor;
+            border: 1px solid $thirdColor;
         }
     }
 }
