@@ -2,7 +2,9 @@ body{
     font-family: $baseFont;
     background: $secondColor;
     color: $firstColor;
-
+    .iphone{
+        display: none;
+    }
     img{
         padding-left: 20%;
     }
@@ -41,7 +43,43 @@ body{
             border: 1px solid $firstColor;
         }
     }
+
+    .hiddenMessage{
+        width: 50%;
+        background: $firstColor;
+        color: $fourthColor;
+        margin-top: 5%;
+        padding: 5%;
+        border-radius: 10px;
+        border: 2px solid $fifthColor;
+        .boxRight{
+            border-right: 1px solid $thirdColor;
+        }
+
+        h3{
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        p{
+            font-size: 16px;
+        }
+
+        .bottomMessage{
+            margin-top: 10%;
+            border-top: 1px solid $thirdColor;
+            padding-top: 2%;
+        }
+        .btn{
+            color: $fourthColor;
+            background: $fifthColor;
+            width: 170px;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 3px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 3px solid $fifthColor;
+        }
+    }
 }
-
-
-
