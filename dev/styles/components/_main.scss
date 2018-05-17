@@ -2,18 +2,22 @@ body{
     font-family: $baseFont;
     background: $secondColor;
     color: $firstColor;
+    
     img{
         padding-left: 20%;
     }
+
     .jumbotron{
         background: $secondColor;
         padding-top: 20%;
+
         h1{
             padding-top: 10%;
             padding-bottom: 8%;
             font-size: 40px;
             position: relative;
         }
+
         span{
             font-size: 12px;
             position: absolute;
@@ -42,11 +46,7 @@ body{
     }
 
     .modal{
-        // opacity: 0.9;
-        // background: $firstColor;
         color: $fourthColor;
-        // margin-top: 5%;
-        // padding: 5%;
 
         .modal-content{
             background: $firstColor !important;
@@ -54,9 +54,11 @@ body{
             border-radius: 8px;
             border: 3px solid $sixthColor;
         }
+
         .boxRight{
             border-right: 1px solid $thirdColor;
         }
+
         h3{
             font-size: 18px;
             font-weight: 700;

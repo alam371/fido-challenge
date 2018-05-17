@@ -27,5 +27,14 @@
          .mobileFront{
              display: none;
          }
+
+         .modal{
+            .boxRight{
+                border-right: none;
+            }
+            .bottomMessage{
+                border-top: none;
+            }
+        }
      }
  }
