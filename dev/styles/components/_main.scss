@@ -2,10 +2,6 @@ body{
     font-family: $baseFont;
     background: $secondColor;
     color: $firstColor;
-    // .iphone{
-    //     display: none;
-    // }  
-    
     img{
         padding-left: 20%;
     }
@@ -45,24 +41,18 @@ body{
         }
     }
 
-    .hiddenMessage{
-        background: $firstColor;
+    .modal{
+        // opacity: 0.9;
+        // background: $firstColor;
         color: $fourthColor;
-        margin-top: 5%;
-        padding: 5%;
-        border-radius: 10px;
-        border: 2px solid $sixthColor;
-        // position: relative;
-        .icon{
-            // position: absolute;
-            // right: 3px;
-            // top: 5px;
-            color: $sixthColor;
-            cursor: pointer;
-        }
-        .fas{
-            font-size: 30px;
-            
+        // margin-top: 5%;
+        // padding: 5%;
+
+        .modal-content{
+            background: $firstColor !important;
+            padding: 4%;
+            border-radius: 8px;
+            border: 3px solid $sixthColor;
         }
         .boxRight{
             border-right: 1px solid $thirdColor;
@@ -106,4 +96,8 @@ body{
             border: 3px solid $fifthColor;
         }
     }
+    .modal-backdrop {
+        background-color: #ffffff !important;
+    }
+   
 }
