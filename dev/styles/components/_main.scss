@@ -2,9 +2,10 @@ body{
     font-family: $baseFont;
     background: $secondColor;
     color: $firstColor;
-    .iphone{
-        display: none;
-    }
+    // .iphone{
+    //     display: none;
+    // }  
+    
     img{
         padding-left: 20%;
     }
@@ -40,22 +41,32 @@ body{
             cursor: pointer;
             color: $thirdColor;
             background: $firstColor;
-            border: 1px solid $firstColor;
+            border: 1px solid $secondColor;
         }
     }
 
     .hiddenMessage{
-        width: 50%;
         background: $firstColor;
         color: $fourthColor;
         margin-top: 5%;
         padding: 5%;
         border-radius: 10px;
-        border: 2px solid $fifthColor;
+        border: 2px solid $sixthColor;
+        // position: relative;
+        .icon{
+            // position: absolute;
+            // right: 3px;
+            // top: 5px;
+            color: $sixthColor;
+            cursor: pointer;
+        }
+        .fas{
+            font-size: 30px;
+            
+        }
         .boxRight{
             border-right: 1px solid $thirdColor;
         }
-
         h3{
             font-size: 18px;
             font-weight: 700;
@@ -70,9 +81,22 @@ body{
             border-top: 1px solid $thirdColor;
             padding-top: 2%;
         }
+
         .btn{
             color: $fourthColor;
             background: $fifthColor;
+            width: 170px;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 3px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 3px solid $fifthColor;
+        }
+
+        .learnBtn{
+            color: $fourthColor;
+            background: $firstColor;
             width: 170px;
             font-size: 15px;
             font-weight: 600;
